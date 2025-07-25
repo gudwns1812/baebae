@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  background: #4f8cff;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+  font-family: 'Pretendard', 'Noto Sans KR', Arial, sans-serif;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.logo:hover {
+  color: #d1eaff;
+}
+.link {
+  margin-left: 24px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: inherit;
+}
+.link:hover {
+  color: #d1eaff;
+}
